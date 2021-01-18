@@ -15,6 +15,6 @@ var check = setInterval(function(){
     if(blockLeft<20 && blockLeft>0 && characterTop>=130){
         block.style.animation = "none";
         block.style.display = "none";
-        alert("You Lose, Ramil")
+        alert("You Lose")
     }
 }, 10);
